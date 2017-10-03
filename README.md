@@ -35,5 +35,10 @@ JelaDKP was done with proper preparations. Two design patterns were considered w
     1. Set up your web environment
 	    1.1. Fetch the application files into the folder you want to use as your public html folder.
 		1.2. Install the application like regular Laravel application https://laravel.com/docs/5.5/installation. EXCLUDING database section.
-	2. Database install TODO.
+	2. Database install:
+	    2.1. Create MySQL-database named 'soulDKP' and create user with permissions to the table.
+		2.2. Restore the /database/backup/soulDKP.sql as your newly created table.
+		2.3. Rename/create the users you want for login into users-table. Please note that you need to bcrypt the password. Default user login is
+		    * Username: Test
+			* Password: password
 	3. Enjoy.
