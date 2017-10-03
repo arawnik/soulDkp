@@ -26,7 +26,8 @@ This project (SoulDkp) was created first. The project was done with minimal time
 
 The second project [JelaDKP](https://github.com/sawyl/jelaDKP "JelaDKP Git repository") was the second created project.
 JelaDKP was done with proper preparations. Two design patterns were considered when creating that project:
-    1. MVC-model
+    
+	1. MVC-model
 	2. Template method model
 
 
