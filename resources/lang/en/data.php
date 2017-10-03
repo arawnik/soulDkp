@@ -10,6 +10,7 @@ return [
     */
 	
 	//Raid
+	'no_raids'				=> 'No raids have been added.',
 	'value'					=> 'Value',
 	'comment'				=> 'Comment',
 	'date'					=> 'Date',

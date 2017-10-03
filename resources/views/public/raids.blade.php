@@ -26,7 +26,7 @@
 		</tbody>
 	</table>
 @else
-	<h4>{{ $raid->no_raids }}</h4>
+	<h4>{{ trans('data.no_raids')}}</h4>
 @endif
 
 @endsection
