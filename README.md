@@ -1,38 +1,38 @@
-# soulDkp
+# SoulDkp
+
+SoulDkp is web-application built to make it easier to handle DKP-like systems in gaming-communities.
+
+SoulDkp is built on top of [Laravel](https://laravel.com/ "Laravel framework"). Any original work on the framework is not my own work.
+
+The code written for SoulDkp is licensed under GPL-3.0. Similiar and related code can be found at [JelaDKP](https://github.com/sawyl/jelaDKP "JelaDKP Git repository") repository. Read background section for further information.
+
+These codes can be found under following folders:
+
+```
+/app/Http/Controllers/*
+/database/backup/*
+/public/* #!!all but /assets/external!!
+/resource/lang/*
+/resource/views/*
+/routes/web.php
+```
+*Note: \* means the whole folder is SoulDkp code*
+
+## Background
+
+SoulDkp is part of master thesis project. Two separate web-applications were created for the thesis.
+
+This project (SoulDkp) was created first. The project was done with minimal time invested before getting started, and not using any design patterns as help.
+
+The second project [JelaDKP](https://github.com/sawyl/jelaDKP "JelaDKP Git repository") was the second created project.
+JelaDKP was done with proper preparations. Two design patterns were considered when creating that project:
+    1. MVC-model
+	2. Template method model
 
 
-## Install
- * Copy .env.example into .env
-   * Fill the info inside the file.
-
-
-
-
-
-# About Laravel PHP Framework
-
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Install instructions.
+    1. Set up your web environment
+	    1.1. Fetch the application files into the folder you want to use as your public html folder.
+		1.2. Install the application like regular Laravel application https://laravel.com/docs/5.5/installation. EXCLUDING database section.
+	2. Database install TODO.
+	3. Enjoy.
